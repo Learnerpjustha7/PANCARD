@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.row input {
+    flex: 1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+input[type="radio"] {
+    margin: 0;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Profile Image in Top-Right Corner */
+.profile-pic-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    z-index: 1;
+}
+
+#preview-image {
+    width: 80px;  /* Width for rectangular shape */
+    height: 80px;  /* Height for rectangular shape */
+    object-fit: cover;
+    border-radius: 8px;  /* Slight rounding on corners */
+    border: 1px solid #ffffff;
+}

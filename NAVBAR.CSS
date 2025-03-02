@@ -1,0 +1,73 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: left;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .contact-info,
+        .links,
+        .legal {
+            flex: 1;
+            margin-right: 20px;
+            max-width: 300px;
+        }
+
+        .contact-info h3,
+        .links h4,
+        .legal h4 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+
+        ul li a {
+            color: #f1f1f1;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            color: #e1e1e1;
+            text-decoration: underline;
+        }
+
+        .footer-logo img {
+            height: 50px;
+        }
+
+        .auth-buttons a {
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px 25px;
+            border: 2px solid #007bff;
+            border-radius: 30px;
+            background: white;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .auth-buttons a:hover {
+            background-color: #0b4d02;
+            color: white;
+        }
+    
