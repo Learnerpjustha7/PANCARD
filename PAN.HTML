@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .card {
+            width: 400px;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border: 5px solid #007bff;
+        }
+        .header {
+            text-align: center;
+            color: red;
+            font-weight: bold;
+        }
+        .sub-header {
+            background: #007bff;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .details {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .details strong {
+            color: #000;
+        }
+        .photo {
+            float: right;
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+            object-fit: cover;
+            border: 2px solid #000;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            Government of Nepal <br>
+            Inland Revenue Department
+        </div>
+        <div class="sub-header">Permanent Account Number Card</div>
+        <div class="details">
+            <img id="preview-image" src="PJ New.jpg" class="photo" alt="Profile Photo">
+            <p><strong>PAN:</strong> 127397171</p>
+            <p><strong>Name:</strong> Prajjawal Shrestha</p>
+            <p><strong>Address:</strong> Mechinagar-08, Jhapa</p>
+            <p><strong>Date of Birth:</strong> 2059.10.11</p>
+            <p><strong>ID No:</strong> 04-01-76-10776</p>
+            <p><strong>Issued Date:</strong> 2078.04.14</p>
+            <p><strong>Organization:</strong> -</p>
+        </div>
+        <div class="footer">
+            Our tax is for our own development and for the <br> creation of modern & prosperous Nepal
+        </div>
+    </div>
+</body>
+</html>

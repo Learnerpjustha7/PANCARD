@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header img {
+    width: 80px;
+}
+.header h1 {
+    margin: 5px 0;
+    font-size: 22px;
+    color: #333;
+}
+.header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #666;
+}
+.header h3 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #444;
+}
+
+/* Form Styles */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
